@@ -117,3 +117,6 @@ Go to the frontend directory: - cd frontend
   npm run dev
   ```
 **The frontend will be available at http://localhost:5173**
+
+
+### Note: If you encounter any errors during installation, please feel free to reach out to me at srujalshete123@gmail.com for assistance.
