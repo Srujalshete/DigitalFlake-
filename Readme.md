@@ -60,7 +60,7 @@ Install dependencies:- npm install
 - **mysql -u root -p Digital < path/to/Digital.sql**
 
 ### 4. Configure environment variables in the .env file in backend folder
-
+```bash
 DB_HOST=localhost //remain same
 DB_USER=<your-db-username> // replace with actual db user name (eg. root)
 DB_PASSWORD=<your-db-password> // replace with actual db pass (mostly it is " " blank)
@@ -73,7 +73,7 @@ EMAIL_USER=<your-email>  //write your mail
 APP_PASSWORD=<your-app-email-password> // write 16 digit App pass
 Vite_APP_API_URL=http://localhost:5173
 REACT_APP_API_URL=http://localhost:5000
-
+```
 - **Creating an App Password in Google**
 Enable 2-Step Verification:
 
