@@ -58,7 +58,7 @@ Install dependencies:- npm install
 ### Or use the command line:
 - **mysql -u root -p Digital < path/to/Digital.sql**
 
-###4. Configure environment variables in the .env file in backend folder
+### 4. Configure environment variables in the .env file in backend folder
 
 DB_HOST=localhost //remain same
 DB_USER=<your-db-username> // replace with actual db user name (eg. root)
@@ -85,7 +85,7 @@ Create an App Password:
 - **Copy the generated 16 digit password and use it as APP_PASSWORD in your .env file.(ensure when you write password that time remove space between them like `oflftqchwzhqxkpp`)**
 
 
-###5. Start the development server:- 
+### 5. Start the development server:- 
 ```bash
 npm run dev
 ```
@@ -110,7 +110,7 @@ Go to the frontend directory: - cd frontend
   npm install
   ```
 
-###Start the Development Server:
+### Start the Development Server:
 - **Run the following command to start the React development server: -**
   ```bash
   npm run dev
