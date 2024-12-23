@@ -50,6 +50,7 @@ cd backend
 Install dependencies:- npm install
 ```
 ### Import the Database:
+- **Start XAMPP Server - (MySQL Database, Apache Web Server)**
 - **Locate the Digital.sql file in the SQLDB-File folder.**
 - **Open phpMyAdmin or use the MySQL command line.**
 - **Import the Digital.sql file into your MySQL database:**
