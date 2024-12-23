@@ -50,13 +50,13 @@ cd backend
 Install dependencies:- npm install
 ```
 ### Import the Database:
-- **Locate the Digital.sql file in the SQLDB-File folder.
-- **Open phpMyAdmin or use the MySQL command line.
-- **Import the Digital.sql file into your MySQL database:
-- **In phpMyAdmin, go to the "Import" tab, select the Digital.sql file, and click "Go."
+- **Locate the Digital.sql file in the SQLDB-File folder.**
+- **Open phpMyAdmin or use the MySQL command line.**
+- **Import the Digital.sql file into your MySQL database:**
+- **In phpMyAdmin, go to the "Import" tab, select the Digital.sql file, and click "Go."**
 
 ### Or use the command line:
-- **mysql -u root -p Digital < path/to/Digital.sql
+- **mysql -u root -p Digital < path/to/Digital.sql**
 
 ###4. Configure environment variables in the .env file in backend folder
 
@@ -73,46 +73,46 @@ APP_PASSWORD=<your-app-email-password> // write 16 digit App pass
 Vite_APP_API_URL=http://localhost:5173
 REACT_APP_API_URL=http://localhost:5000
 
-- **Creating an App Password in Google
+- **Creating an App Password in Google**
 Enable 2-Step Verification:
 
-- **Go to Google Account Security and enable 2-Step Verification if not already done.
+- **Go to Google Account Security and enable 2-Step Verification if not already done.**
 Create an App Password:
 
-- **In the Security section, under "App passwords", type a custom name(such as `Nodemailer`).
-- **Click Generate to get a 16-character password.
-- **Use the App Password:
-- **Copy the generated 16 digit password and use it as APP_PASSWORD in your .env file.(ensure when you write password that time remove space between them like `oflftqchwzhqxkpp`)
+- **In the Security section, under "App passwords", type a custom name(such as `Nodemailer`).**
+- **Click Generate to get a 16-character password.**
+- **Use the App Password:**
+- **Copy the generated 16 digit password and use it as APP_PASSWORD in your .env file.(ensure when you write password that time remove space between them like `oflftqchwzhqxkpp`)**
 
 
 ###5. Start the development server:- 
 ```bash
 npm run dev
 ```
-- **backend server run on - http://localhost:5000
+- **backend server run on - http://localhost:5000**
 
 
 
 ## Frontend Setup
 ### Clone the Repository:
-- **Clone the project to your local machine:
+- **Clone the project to your local machine:**
 ```bash
 git clone <repository-url>
 ```
-- **Navigate to the Frontend Directory:
+- **Navigate to the Frontend Directory:**
 ```bash
 Go to the frontend directory: - cd frontend
 ```
 
 ### Install Dependencies:
-- **Run the following command to install all required dependencies: -
+- **Run the following command to install all required dependencies: -**
   ```bash
   npm install
   ```
 
 ###Start the Development Server:
-- **Run the following command to start the React development server: -
+- **Run the following command to start the React development server: -**
   ```bash
   npm run dev
   ```
-**The frontend will be available at http://localhost:5173
+**The frontend will be available at http://localhost:5173**
